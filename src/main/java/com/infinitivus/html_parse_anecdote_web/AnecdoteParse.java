@@ -8,11 +8,11 @@ import java.io.IOException;
 public class AnecdoteParse {
     public String anecdote() {
         Document doc;
-        String anecdote=null;
+        String anecdote = null;
         try {
             doc = Jsoup.connect("https://www.anekdot.ru/random/anekdot").get();
             anecdote = doc.select("div.text").first().text();
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return anecdote;

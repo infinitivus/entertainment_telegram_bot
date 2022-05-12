@@ -37,7 +37,7 @@ public class FortuneParse {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return "Ошибка, нет информации";
+        return "Ошибка, нет информации!";
     }
 
     private int fortuneRandomNumber(int size) {

@@ -1,7 +1,7 @@
 package com.infinitivus.json_parse_fortune_file;
 
 public class Fortune {
-   private int id;
+    private int id;
     private String text;
 
     public Fortune(int id, String text) {

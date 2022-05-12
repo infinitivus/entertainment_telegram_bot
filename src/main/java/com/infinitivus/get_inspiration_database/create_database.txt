@@ -3,6 +3,7 @@ CREATE TABLE telegram_bot_inspiration.inspiration(
 id int,
 text varchar(255)
 );
+
 INSERT INTO telegram_bot_inspiration.inspiration VALUES(1,'https://demotivation.ru/wp-content/uploads/2020/05/1c45a9bd5bfe9da5ced8fc3d52b47116-motivation-search.jpg');
 INSERT INTO telegram_bot_inspiration.inspiration VALUES(2,'https://demotivation.ru/wp-content/uploads/2020/05/2f74a2513a320878455520f831be15f5.jpg');
 INSERT INTO telegram_bot_inspiration.inspiration VALUES(3,'https://demotivation.ru/wp-content/uploads/2020/05/4a0dab655c28f9733810c432f1319864.jpg');

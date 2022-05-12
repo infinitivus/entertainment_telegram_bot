@@ -23,7 +23,7 @@ public class HoroscopeParse {
         return horoscope;
     }
 
-    public InlineKeyboardMarkup setInlineButton() {
+    public InlineKeyboardMarkup setInlineButton() { // Создаем кнопки знаков зодиака
         InlineKeyboardMarkup markup = new InlineKeyboardMarkup();
         InlineKeyboardButton buttonAries = new InlineKeyboardButton();
         buttonAries.setText("Овен");

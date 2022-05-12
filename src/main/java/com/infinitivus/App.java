@@ -7,7 +7,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class App {
     public static void main(String[] args) {
-        BasicConfigurator.configure(); // конфигурация slf4j
+        BasicConfigurator.configure(); // конфигурация slf4j базовая
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
             botsApi.registerBot(new EntertainmentBot());
